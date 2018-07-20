@@ -46,7 +46,7 @@ root@arsenenko/home/aa# google-authenticator
 
 <a href="https://ibb.co/db5kjJ"><img src="https://preview.ibb.co/dV5UBy/000.png" alt="000" border="0"></a>
 
-
+Необходимо установить предложения и отсканировать код " Google Authenticator " 
 
 
 
