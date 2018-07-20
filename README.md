@@ -66,6 +66,7 @@ root@arsenenko/home/aa# google-authenticator
 2 Настройка конфигурации ssh
 
 Вариант 1
+
 root@arsenenko/home/aa# vim /etc/pam.d/sshd
 @include common-auth   
 auth required pam_google_authenticator.so <<<-- Эта строчка в конец конфига 
