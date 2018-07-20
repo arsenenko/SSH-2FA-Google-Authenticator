@@ -10,7 +10,9 @@ Google Authenticator (API)
 
 Организация для пользователя root 
 Все остальные по ключу или по паролю .
+
 1  Установка Ubuntu
+
 root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y
 
 Запуск
