@@ -1,0 +1,4 @@
+Ubuntu 16.04
+apt-get update -y
+apt-get install libpam-google-authenticator -y
+...
