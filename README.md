@@ -3,4 +3,4 @@
 Google предоставляет необходимое программное обеспечение для интеграции системы одноразового пароля Google Authenticator (TOTP) с вашим SSH-сервером. При подключении вам нужно будет ввести код со своего телефона.
 
 Google Authenticator (API)
-![alt text](http://url/to/img.png)
+![alt text](https://ibb.co/b30wry)
