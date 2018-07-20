@@ -11,11 +11,11 @@ Google Authenticator (API)
 Организация для пользователя root 
 Все остальные по ключу или по паролю .
 
-1  Установка Ubuntu
+# Установка Ubuntu
 
 root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y
 
-Запуск
+# Запуск
 
 root@arsenenko/home/aa# google-authenticator
      
@@ -59,12 +59,12 @@ root@arsenenko/home/aa# google-authenticator
 
 
 
-Настройка SSH
+# Настройка SSH
 
 2 Настройка конфигурации ssh
 
 Вариант 1
-rroot@arsenenko/home/aa#   vim /etc/pam.d/sshd
+root@arsenenko/home/aa#   vim /etc/pam.d/sshd
 @include common-auth   
 auth required pam_google_authenticator.so <<<-- Эта строчка в конец конфига 
 
