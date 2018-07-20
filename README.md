@@ -38,4 +38,22 @@ root@arsenenko/home/aa# google-authenticator
 
 
 
+Настройка SSH
+
+2 Настройка конфигурации ssh
+
+Вариант 1
+rroot@arsenenko/home/aa#   vim /etc/pam.d/sshd
+@include common-auth   
+auth required pam_google_authenticator.so <<<-- Эта строчка в конец конфига 
+
+root@arsenenko/home/aa#  vim /etc/ssh/sshd_config
+ChallengeResponseAuthentication yes
+root@arsenenko/home/aa#  systemctl restart ssh
+
+
+
+
+
+
 <a href="https://ibb.co/db5kjJ"><img src="https://preview.ibb.co/dV5UBy/000.png" alt="000" border="0"></a>
