@@ -38,6 +38,27 @@ root@arsenenko/home/aa# google-authenticator
 
 
 
+
+
+
+
+<a href="https://ibb.co/db5kjJ"><img src="https://preview.ibb.co/dV5UBy/000.png" alt="000" border="0"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Настройка SSH
 
 2 Настройка конфигурации ssh
@@ -52,8 +73,3 @@ ChallengeResponseAuthentication yes
 root@arsenenko/home/aa#  systemctl restart ssh
 
 
-
-
-
-
-<a href="https://ibb.co/db5kjJ"><img src="https://preview.ibb.co/dV5UBy/000.png" alt="000" border="0"></a>
