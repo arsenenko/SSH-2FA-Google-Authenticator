@@ -73,3 +73,16 @@ ChallengeResponseAuthentication yes
 root@arsenenko/home/aa#  systemctl restart ssh
 
 
+
+# Пример 
+
+Вариант 2
+root@arsenenko/home/aa# ssh root@arsenenko
+password: kjfdhykf)s^%^
+Verification code: 23146
+
+
+<a href="https://imgbb.com/"><img src="https://image.ibb.co/fKGuTd/google_authenticator.jpg" alt="google_authenticator" border="0"></a><br /><a target='_blank' href='https://poetandpoem.com/William-Edmondstoune-Aytoun'>William Edmondstoune Aytoun</a><br />
+
+
+
