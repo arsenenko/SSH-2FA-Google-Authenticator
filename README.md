@@ -11,7 +11,9 @@ Google Authenticator (API)
 Организация для пользователя root 
 Все остальные по ключу или по паролю .
 
-# Установка Ubuntu
+# Установка Ubuntu 16.04
+
+root@arsenenko/home/aa# apt-get update -y
 
 root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y
 
@@ -77,11 +79,12 @@ root@arsenenko/home/aa#  systemctl restart ssh
 # Пример 
 
 Вариант 1
-# root@arsenenko/home/aa# ssh root@arsenenko
 
-# password: kjfdhykf)s^%^
+root@arsenenko/home/aa# ssh root@arsenenko
 
-# Verification code: 23146
+ password: kjfdhykf)s^%^
+
+ Verification code: 23146
 
 
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/fKGuTd/google_authenticator.jpg" alt="google_authenticator" border="0"></a><br /><a target='_blank' href='https://poetandpoem.com/William-Edmondstoune-Aytoun'>William Edmondstoune Aytoun</a><br />
