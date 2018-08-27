@@ -9,14 +9,16 @@ Google Authenticator (API)
 Все остальные по ключу или по паролю .
 
 # Установка Ubuntu 16.04
-
+```
 root@arsenenko/home/aa# apt-get update -y
 
 root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y 
 
+```
+
 # Запуск
 ---
-root@arsenenko/home/aa# google-authenticator
+``` root@arsenenko/home/aa# google-authenticator ```
      
 Ответить на ряд вопросов :
 Вы хотите, чтобы токены аутентификации были основаны на времени    
@@ -63,28 +65,29 @@ root@arsenenko/home/aa# google-authenticator
 2 Настройка конфигурации ssh
 
 Вариант 1
-
+```
 root@arsenenko/home/aa# vim /etc/pam.d/sshd
 @include common-auth   
 auth required pam_google_authenticator.so <<<-- Эта строчка в конец конфига 
-
+```
+```
 root@arsenenko/home/aa#  vim /etc/ssh/sshd_config
 ChallengeResponseAuthentication yes
 root@arsenenko/home/aa#  systemctl restart ssh
 
-
+```
 
 # Пример 
 
 Вариант 1
-
+```
 root@arsenenko/home/aa# ssh root@arsenenko
 
  password: kjfdhykf)s^%^
 
  Verification code: 23146
 
-
+```
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/fKGuTd/google_authenticator.jpg" alt="google_authenticator" border="0"></a><br />
 
 
@@ -95,13 +98,13 @@ root@arsenenko/home/aa# ssh root@arsenenko
 
 
 # Пример 2 ( Multi-Factor Authentication for SSH )
-
+```
 cat /etc/pam.d/lightdm (Строчка в низ)
 #
 auth required pam_google_authenticator.so nullok
 
 ............
-
+```
 
 SSH-2FA-Google-Authenticator при входе в систему 
 
