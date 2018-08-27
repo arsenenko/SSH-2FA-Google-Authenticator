@@ -88,3 +88,12 @@ root@arsenenko/home/aa# ssh root@arsenenko
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/fKGuTd/google_authenticator.jpg" alt="google_authenticator" border="0"></a><br />
 
 
+
+
+
+Пример 3
+cat /etc/pam.d/lightdm (Строчка в низ)
+#
+auth required pam_google_authenticator.so nullok
+
+
