@@ -91,9 +91,13 @@ root@arsenenko/home/aa# ssh root@arsenenko
 
 
 
-Пример 3
+# Пример 3 ( Multi-Factor Authentication for SSH )
+
 cat /etc/pam.d/lightdm (Строчка в низ)
 #
 auth required pam_google_authenticator.so nullok
+............
+
+
 
 
