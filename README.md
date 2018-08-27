@@ -96,6 +96,7 @@ root@arsenenko/home/aa# ssh root@arsenenko
 cat /etc/pam.d/lightdm (Строчка в низ)
 #
 auth required pam_google_authenticator.so nullok
+
 ............
 
 
