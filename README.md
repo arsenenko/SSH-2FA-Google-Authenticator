@@ -10,9 +10,9 @@ Google Authenticator (API)
 
 # Установка Ubuntu 16.04
 
-''' root@arsenenko/home/aa# apt-get update -y
+root@arsenenko/home/aa# apt-get update -y
 
-root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y '''
+root@arsenenko/home/aa# apt-get install libpam-google-authenticator -y 
 
 # Запуск
 ---
