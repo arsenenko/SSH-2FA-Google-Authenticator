@@ -91,7 +91,10 @@ root@arsenenko/home/aa# ssh root@arsenenko
 
 
 
-# Пример 3 ( Multi-Factor Authentication for SSH )
+
+
+
+# Пример 2 ( Multi-Factor Authentication for SSH )
 
 cat /etc/pam.d/lightdm (Строчка в низ)
 #
