@@ -103,5 +103,5 @@ auth required pam_google_authenticator.so nullok
 ............
 
 
-
+SSH-2FA-Google-Authenticator при входе в систему 
 
